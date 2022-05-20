@@ -153,7 +153,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/7224cd4993885a8c2f990.jpg"
+        thumb_name = "https://telegra.ph/file/bc7ba397bb66523469e62.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -161,14 +161,14 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🚑 Support", url=f"t.me/Blaze_Support"),
-                    InlineKeyboardButton("Updates 📢", url=f"t.me/The_Blaze_Network"),
+                    InlineKeyboardButton("🚑 Support", url=f"https://t.me/BHATAKTI_SUPPORTS"),
+                    InlineKeyboardButton("Updates 📢", url=f"https://t.me/BHATAKTI_SUPPORTS"),
                 ],
                 [
                     InlineKeyboardButton(
-                       "📨 Chat zone", url=f"https://t.me/UNIQUE_SOCIETY"
+                       "📨 Chat zone", url=f"https://t.me/A_BUT/32"
                 ),
-                InlineKeyboardButton("Chitchat 📨", url=f"https://t.me/All_Dear_Comrade"),
+                InlineKeyboardButton("Chitchat 📨", url=f"https://t.me/BHATAKTI_SUPPORTS"),
             ],
         ]
     )
@@ -204,34 +204,34 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🚑 Support", url=f"t.me/Blaze_Support"),
-                    InlineKeyboardButton("Updates 📢", url=f"t.me/The_Blaze_Network"),
+                    InlineKeyboardButton("🚑 Support", url=f"https://t.me/BHATAKTI_SUPPORTS"),
+                    InlineKeyboardButton("Updates 📢", url=f"https://t.me/BHATAKTI_SUPPORTS"),
                 ],
                 [
                     InlineKeyboardButton(
-                       "📨 Chat zone", url=f"https://t.me/UNIQUE_SOCIETY"
+                       "📨 Chat zone", url=f"https://t.me/A_BUT/32"
                 ),
-                InlineKeyboardButton("Chitchat 📨", url=f"https://t.me/All_Dear_Comrade"),
+                InlineKeyboardButton("Chitchat 📨", url=f"https://t.me/A_BUT"),
             ],
         ]
     )
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/a67094fc4a99bca08114b.jpg"
+            thumb_name = "https://telegra.ph/file/bc7ba397bb66523469e62.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🚑 Support", url=f"t.me/Blaze_Support"),
-                    InlineKeyboardButton("Updates 📢", url=f"t.me/The_Blaze_Network"),
+                    InlineKeyboardButton("🚑 Support", url=f"https://t.me/A_BUT"),
+                    InlineKeyboardButton("Updates 📢", url=f"https://t.me/BHATAKTI_SUPPORTS"),
                 ],
                 [
                     InlineKeyboardButton(
-                       "📨 Chat zone", url=f"https://t.me/UNIQUE_SOCIETY"
+                       "📨 Chat zone", url=f"https://t.me/A_BUT/32"
                 ),
-                InlineKeyboardButton("Chitchat 📨", url=f"https://t.me/All_Dear_Comrade"),
+                InlineKeyboardButton("Chitchat 📨", url=f"https://t.me/BHATAKTI_SUPPORTS"),
             ],
         ]
     )
@@ -282,14 +282,14 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🚑 Support", url=f"t.me/Blaze_Support"),
-                    InlineKeyboardButton("Updates 📢", url=f"t.me/The_Blaze_Network"),
+                    InlineKeyboardButton("🚑 Support", url=f"https://t.me/A_BUT"),
+                    InlineKeyboardButton("Updates 📢", url=f"https://t.me/BHATAKTI_SUPPORTS"),
                 ],
                 [
                     InlineKeyboardButton(
-                       "📨 Chat zone", url=f"https://t.me/UNIQUE_SOCIETY"
+                       "📨 Chat zone", url=f"https://t.me/A_BUT/32"
                 ),
-                InlineKeyboardButton("Chitchat 📨", url=f"https://t.me/All_Dear_Comrade"),
+                InlineKeyboardButton("Chitchat 📨", url=f"https://t.me/BHATAKTI_SUPPORTS"),
             ],
         ]
     )
