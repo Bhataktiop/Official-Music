@@ -51,7 +51,7 @@ def song(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = "**🎵 Uploaded By :- ➪ [❛- ⚘  Oɯɳҽɾ :](https://t.me/log_afk) **"
+        rep = "**🎵 Uploaded By :- ➪ [❛- ⚘  𝐌𝐑 𝐎𝐖𝐍𝐄𝐑 :](https://t.me/GIRLS_CRUSH_OUT_OF_RANGE) **"
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
@@ -59,7 +59,7 @@ def song(client, message):
         message.reply_audio(audio_file, caption=rep, thumb=thumb_name, parse_mode='md', title=title, duration=dur)
         m.delete()
     except Exception as e:
-        m.edit("**Youtube error ❌ contact Owner 🥀 [❛- ⚘  Oɯɳҽɾ :](https://t.me/log_afk) **")
+        m.edit("**Youtube error ❌ contact Owner 🥀 [❛- ⚘  𝐌𝐄 𝐎𝐖𝐍𝐄𝐑 :](https://t.me/GIRLS_CRUSH_OUT_OF_RANGE) **")
         print(e)
 
     try:
